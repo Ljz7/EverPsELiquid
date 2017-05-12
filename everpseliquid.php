@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 //Si le titre est indiqué, on l'affiche entre les balises <title>
 echo (!empty($titre))?'<title>'.$titre.'</title>':'<title> Forum </title>';
@@ -16,3 +17,8 @@ $pseudo=(isset($_SESSION['pseudo']))?$_SESSION['pseudo']:'';
 include("./includes/functions.php");
 include("./includes/constants.php");
 ?>
+=======
+<div>
+  <h1>Ceci est un bout de code a la con</h1>
+</div>
+>>>>>>> e476a0908c8b7fa9766167005f4dc47d0e0a94c6

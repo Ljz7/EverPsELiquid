@@ -1,21 +1,4 @@
-YYYYYYYY        YYYYYYYY    EEEEEEEEEEEEEEEEEE      SSSSSSSSSSS
-YYYYYYYY        YYYYYYYY    EEEEEEEEEEEEEEEEEE     SSSSSSSSSSSSS
-YYYYYYYY        YYYYYYYY    EEEEEEEEEEEEEEEEEE    SSSSSSSSSSSSSSS
-YYYYYYYY        YYYYYYYY    EEEEEEEEEEEEEEEEEE    SSSSSSSS    SSS
- YYYYYYYY      YYYYYYYY     EEEEEEEE              SSSSSSSS
-  YYYYYYYY    YYYYYYYY      EEEEEEEE              SSSSSSSS
-   YYYYYYYY  YYYYYYYY       EEEEEEEEEEEEE          SSSSSSSS
-    YYYYYYYYYYYYYYYY        EEEEEEEEEEEEE           SSSSSSSSSS
-     YYYYYYYYYYYYYY         EEEEEEEEEEEEE            SSSSSSSSSS
-      YYYYYYYYYYYY          EEEEEEEEEEEEE               SSSSSSSSS
-       YYYYYYYYYY           EEEEEEEE                     SSSSSSSS
-        YYYYYYYY            EEEEEEEE                     SSSSSSSS
-        YYYYYYYY            EEEEEEEEEEEEEEEEE     SSS    SSSSSSSS
-        YYYYYYYY            EEEEEEEEEEEEEEEEE     SSSSSSSSSSSSSSS
-        YYYYYYYY            EEEEEEEEEEEEEEEEE      SSSSSSSSSSSSS
-        YYYYYYYY            EEEEEEEEEEEEEEEEE       SSSSSSSSSSS
 
-<<<<<<< HEAD
 <?php
 //Si le titre est indiqué, on l'affiche entre les balises <title>
 echo (!empty($titre))?'<title>'.$titre.'</title>':'<title> Forum </title>';
@@ -38,4 +21,3 @@ include("./includes/constants.php");
 <div>
   <h1>Ceci est un bout de code a la con</h1>
 </div>
->>>>>>> e476a0908c8b7fa9766167005f4dc47d0e0a94c6

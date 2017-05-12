@@ -17,7 +17,3 @@ $pseudo=(isset($_SESSION['pseudo']))?$_SESSION['pseudo']:'';
 include("./includes/functions.php");
 include("./includes/constants.php");
 ?>
-=======
-<div>
-  <h1>Ceci est un bout de code a la con</h1>
-</div>

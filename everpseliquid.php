@@ -1,19 +1,39 @@
-
 <?php
-//Si le titre est indiqué, on l'affiche entre les balises <title>
-echo (!empty($titre))?'<title>'.$titre.'</title>':'<title> Forum </title>';
-?>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" media="screen" type="text/css" title="Design" href="./css/design.css" />
-</head>
-<?php
+/**
+ * Project : Module Name
+ * @author Team-Ever
+ * @link https://www.team-ever.com/
+ * @copyright Team-Ever
+ * @license Tous droits réservés / Le droit d'auteur s'applique (All rights reserved / French copyright law applies)
+ */
 
-//Attribution des variables de session
-$lvl=(isset($_SESSION['level']))?(int) $_SESSION['level']:1;
-$id=(isset($_SESSION['id']))?(int) $_SESSION['id']:0;
-$pseudo=(isset($_SESSION['pseudo']))?$_SESSION['pseudo']:'';
+if (!defined('_PS_VERSION_'))
+    exit;
 
-//On inclue les 2 pages restantes
-include("./includes/functions.php");
-include("./includes/constants.php");
-?>
+class ModuleName extends Module {
+
+    public function __construct()
+    {
+        $this->name = 'modulename' ;
+        $this->tab = 'front_office_features';
+        $this->version = '0.1';
+        $this->author = 'Team-Ever';
+
+        $this->bootstrap = true;
+        parent::__construct();
+
+        $this->displayName = $this->l('Module name');
+        $this->description = $this->l('Module short description');
+        $this->confirmUninstall = $this->l('Are you sure you want to delete these details?');
+    }
+
+    public function install()
+    {
+        return parent::install();
+    }
+
+    public function uninstall()
+    {
+        return parent::uninstall();
+    }
+}

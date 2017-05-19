@@ -38,4 +38,9 @@ class EverPsELiquid extends Module {
     {
         return parent::uninstall();
     }
+
+	public function hookDisplayHome()
+	{
+		return $this->display(__FILE__, 'everpseliquid.tpl');
+	}
 }

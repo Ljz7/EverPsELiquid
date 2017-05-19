@@ -29,7 +29,9 @@ class EverPsELiquid extends Module {
 
     public function install()
     {
-        return parent::install();
+        return parent::install()
+			&& $this->registerHook('header')
+			&& $this->registerHook('DisplayHome');
     }
 
     public function uninstall()

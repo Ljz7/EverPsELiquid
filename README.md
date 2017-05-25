@@ -1,6 +1,6 @@
-# EverPsELiquid
+# EverPsELiquid v0.1
 
-### Module pour Prestashop 1.6. 
+### Module pour Prestashop 1.6
 
 Ce module affiche un bloc qui permet de calculer la quantité de nicotine et de
-base nécessaire afin de fabriquer son propre e-liquid. 
+base nécessaire afin de fabriquer son propre e-liquid.

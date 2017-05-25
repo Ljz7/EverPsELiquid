@@ -30,8 +30,8 @@ class EverPsELiquid extends Module {
     public function install()
     {
         return parent::install()
-			&& $this->registerHook('header')
-			&& $this->registerHook('DisplayHome');
+            && $this->registerHook('header')
+            && $this->registerHook('DisplayHome');
     }
 
     public function uninstall()
@@ -39,13 +39,14 @@ class EverPsELiquid extends Module {
         return parent::uninstall();
     }
 
-	public function hookHeader()
-	{
-		$this->context->controller->addJS($this->_path.'/views/js/everpseliquid.js', 'all');
-	}
-	
-	public function hookDisplayHome()
-	{
-		return $this->display(__FILE__, 'everpseliquid.tpl');
-	}
+    public function hookHeader()
+    {
+        $this->context->controller->addJS($this->_path.'/views/js/everpseliquid.js', 'all');
+    }
+
+    public function hookDisplayHome()
+    {
+        return $this->display(__FILE__, 'everpseliquid.tpl');
+    }
+    
 }

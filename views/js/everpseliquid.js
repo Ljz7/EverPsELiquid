@@ -14,7 +14,7 @@ $(document).ready(function() {
             $('#booster').html(calculation.booster);
             $('#base').html(calculation.base);
         }
-	});
+    });
 });
 
 function calculateBoostAndBase(quantity, nicotine) {

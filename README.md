@@ -13,3 +13,4 @@ base nécessaire afin de fabriquer son propre e-liquid.
 ##### Done
 
 - Arrondir le résultat a 1 et/ou 2 chiffre après la virgule.
+- Interdire a l'utilisateur d'utiliser les lettres dans les input.

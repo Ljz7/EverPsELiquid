@@ -4,15 +4,15 @@ $(document).ready(function() {
             $('#quantity').val(),
             $('#nicotine').val()
         );
-        
+
         if (!calculation) {
             $('.error').fadeIn();
             setTimeout(function() {
                 $('.error').fadeOut();
             }, 5000);
         } else {
-            $('#booster').html(calculation.booster);
-            $('#base').html(calculation.base);
+            $('#booster').html(calculation.booster.toFixed(2));
+            $('#base').html(calculation.base.toFixed(2));
         }
     });
 });

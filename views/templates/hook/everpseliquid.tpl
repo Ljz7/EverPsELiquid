@@ -17,7 +17,7 @@
             <div class="form-group">
                 <label for="nicotine">{l s='Nicotine :' mod='everpseliquid'}</label>
                 <div class="input-group">
-                    <input type="number" min="0" max="20" class="form-control" id="nicotine" name="eliquidInput" />
+                    <input type="number" min="1" max="20" class="form-control" id="nicotine" name="eliquidInput" />
                     <div class="input-group-addon">{l s='mg/ml' mod='everpseliquid'}</div>
                 </div>
                 <small class="form-text text-muted">{l s='The nicotine level' mod='everpseliquid'}</small>
